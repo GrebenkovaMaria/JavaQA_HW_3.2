@@ -5,7 +5,7 @@
 приложение расчитывет итоговый баланс и сумму бонусного пополнения из расчета: при пополнение свыше 1000 руб. за каждый 100 руб поступает дополнительно 1 руб
 
 ## инструкция
-1. открыть [код приложения](https://github.com/GrebenkovaMaria/JavaforQA_HW_3.1._Miles/blob/main/src/Main.java) в IntelliJ IDEA 
+1. открыть [код приложения](https://github.com/GrebenkovaMaria/JavaQA_HW_3.2/blob/main/src/Main.java) в IntelliJ IDEA 
 2. проставить изначальный баланс ``` InitialBalance ```, 
 3. проставить сумму пополнения ``` SumOfTopUp ```
 4. запустить приложение
