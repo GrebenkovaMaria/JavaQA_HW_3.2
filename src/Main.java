@@ -1,16 +1,17 @@
 public class Main {
     public static void main(String[] args) {
-        int bonus_price = 100 ;
-        long InitialBalance = 100 ;
-        long SumOfTopUp = 1100 ;
-        long TopUpForBonus = 1000 ;
-        long bonus ;
-        if (SumOfTopUp > TopUpForBonus) {
-            bonus = SumOfTopUp / bonus_price ;
-        } else { bonus = 0 ;
+        int bonusPrice = 100;
+        int initialBalance = 100;
+        int sumOfTopUp = 1100;
+        int topUpForBonus = 1000;
+        int bonus;
+        if (sumOfTopUp > topUpForBonus) {
+            bonus = sumOfTopUp / bonusPrice;
+        } else {
+            bonus = 0;
         }
-         long OutgoingBalance = InitialBalance + bonus + SumOfTopUp;
-    System.out.println(OutgoingBalance) ;
-    System.out.println(bonus) ;
-}
+        int OutgoingBalance = initialBalance + bonus + sumOfTopUp;
+        System.out.println(OutgoingBalance);
+        System.out.println(bonus);
+    }
 }
